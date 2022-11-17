@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<script src="res/js/usrControl.js" type="text/javascript"></script>
+<body>
+    <link rel="stylesheet" href="logonstyles.css">
+    <div>
+        <div class="container login">
+            <div class="content">
+               <div id="large-header" class="large-header">
+                <canvas id="login-canvas"></canvas>
+                <h1 class="main-title"><span class="thin">NYLX</span> Intra</h1>
+               </div>
+            </div>
+         </div>
+            <div id="login" class="loginForeground">
+            <div class="wrapper4">
+                <img src="res/users/img/$fieldName$">
+            </div>
+            <div class="wrapper3">
+                <input type="username" oninput="usrName(); usrCheck();" placeholder="username"></input>
+            </div>
+            <div class="wrapper">
+                <input type="password" oninput="usrPassword();" placeholder="password"></input>
+            </div>
+            <div class="wrapper2">
+                <button onclick="loginIntra();">
+                <img src="images/login.png">
+                </button>
+            </div>
+            </div>
+        </div>
+        <canvas class="loginBackground"></canvas>
+        <script src="js/particles.js"></script>
+</body>
+<footer>
+    <div class="container info">
+        <div class="information">
+            <div id="large-footer" class="large-footer">
+                <canvas id="footer-canvas">
+                <h1 class="main-footer"><span class="info">Created by NYLX Geneva</span></h1>
+                </canvas>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+

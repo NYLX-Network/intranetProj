@@ -1,0 +1,143 @@
+.main-footer {
+    position: absolute;
+    width: 100%;
+    background-position: bottom bottom;
+    background-size: cover;
+    background: darkgray;
+    overflow: hidden;
+}
+
+.large-header {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+ }
+ 
+ .login .large-header {
+    background-image: url("");
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 5;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-40%, -30%, 0);
+    transform: translate3d(-40%, -30%, 0);
+ }
+ 
+ .login .main-title {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    letter-spacing: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .login .main-title {
+       font-size: 3em;
+    }
+ }
+
+ .loginForeground {
+    padding-top: 290px;
+ }
+
+ .wrapper {
+    display: flex;
+    height: 55px;
+    width: auto;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 670px;
+ }
+
+ .wrapper2 {
+    display: flex;
+    height: 65px;
+    width: auto;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 711px;
+ }
+
+ .wrapper3 {
+    display: flex;
+    height: 65px;
+    width: auto;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 670px;
+ }
+
+ .wrapper4 {
+    display: flex;
+    height: 65px;
+    width: auto;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 735px;
+ }
+
+input {
+    background-clip: border-box;
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.6);
+    outline: none;
+    border-width: 2px;
+    border-color: antiquewhite;
+    display: inline-flex;
+    height: 20px;
+    z-index: 5;
+}
+button {
+    background: transparent no-repeat;
+    outline: none;
+    border: none;
+    vertical-align: sub;
+    height: 65px;
+    width: 65px;
+    z-index: 5;
+}
+
+::placeholder {
+    color: whitesmoke;
+}
+
+ body {
+    background-color: rgb(0, 0, 0);
+    overflow:hidden;
+ }
+
+ footer {
+    background-color: darkgrey;
+    width: auto;
+    height: 50px;
+    margin-top: 115px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    opacity: 100%;
+    z-index: 5;
+ }
+
+  .loginBackground {
+  
+    position: absolute;
+    display: block;  
+    top: 0;
+    left: 0;
+    z-index: 0;
+    }

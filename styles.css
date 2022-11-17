@@ -1,0 +1,715 @@
+h1 {
+    background-color: rgba(54, 54, 54, 0.4);
+    background-clip: border-box;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    color: rgb(159, 159, 159);
+    width: 200px;
+    position: fixed;
+    bottom: 14px;
+    right: 15px;
+    height: 55px;
+    z-index: 5;
+}
+
+subtitle {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    color: rgb(233, 44, 218);
+    position: fixed;
+    bottom: 39px;
+    right: 106px;
+    z-index: 5;
+}
+
+subtitle2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    color: rgb(116, 31, 235);
+    position: fixed;
+    bottom: 39px;
+    right: 35px;
+    z-index: 5;
+}
+
+p {
+    color:black;
+    font-style: normal;
+    text-align: center;
+    vertical-align: auto;
+}
+
+h3 {
+    color: white;
+    font-style: normal;
+    text-align: center;
+    vertical-align: auto;
+    font-size: 5px;
+}
+
+.dock {
+    position: fixed;
+    bottom: 15px;
+    left: 100px;
+    right: 400px;
+    padding: 0 13px;
+    margin-left: 320px;
+    margin-right: auto;
+    width: auto;
+    height: 80px;
+    line-height: 100px;
+    border-radius: 100;
+    background-clip: border-box;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    opacity: 50%;
+    vertical-align: middle;
+    border-width: 15px;
+    border-color: whitesmoke;
+    align-items: left;
+    z-index: 6;
+}
+.dock img {
+    display: inline-flex;
+    vertical-align: sub;
+    height: 50%;
+    margin-left: 5px;
+    padding: 0 5px;
+    justify-items: left;
+    filter: brightness(1.25) hue-rotate(10deg) opacity(100%) drop-shadow(0 0 1.55rem lightgray);
+    z-index: 5;
+}
+
+button {
+    background: transparent no-repeat;
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.dock img:hover {
+    transform: translate(0%, 20%);
+    transform: scale(1.3);
+    transform-origin: center center;
+}
+
+.dockbg {
+    position: fixed;
+    bottom: 20px;
+    left: auto;
+    right: auto;
+    width: 15%;
+    height: 70px;
+    margin-left: 400px;
+    padding-right: 400px;
+    background-clip: border-box;
+    border-width: 15px;
+    border-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-radius: 100;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color: rgba(41, 41, 41, 0.4);
+    z-index: 6;
+}
+
+.vl {
+    border-left: 3px solid whitesmoke;
+    height: 55px;
+    position: absolute;
+    left: 30%;
+    margin-left: -3px;
+    top: 12.5px;
+    border-radius: 1.5px;
+  }
+
+.vl2 {
+    border-left: 3px solid whitesmoke;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 12.5px;
+    border-radius: 1.5px;
+  }
+
+.profile {
+    position: fixed;
+    top: 20px;
+    left: 1130px;
+    right: 315px;
+    height: 80px;
+    max-width: 60px;
+    line-height: 100px;
+    padding-left: 40px;
+    padding-top: 10px;
+    background-clip: border-box;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    vertical-align: middle;
+    border-width: 15px;
+    border-color: whitesmoke;
+    align-items: left;
+    z-index: 6;
+}
+
+.profilebg {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding-right: 20px;
+    padding-left: auto;
+    left: 1150px;
+    height: 70px;
+    background-clip: border-box;
+    border-width: 15px;
+    border-color: whitesmoke;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.0);
+    z-index: 5;
+}
+
+.profile img {
+    display: inline-flex;
+    vertical-align: sub;
+    margin-top: 2px;
+    padding-top: 5px;
+    margin-left: 2px;
+    height: 50%;
+    padding: 0 10px;
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+    justify-items: left;
+    z-index: 7;
+    clip-path: circle(100% at 100%, 100%);
+    opacity: 0.9;
+}
+
+.profile img:hover {
+    filter: drop-shadow(0 0 1.55rem lightgray);
+    z-index: 7;
+    opacity: 1.0;
+}
+
+.wrapper{
+    background: rgba(41, 41, 41, 0.7); 
+    width:  200px;
+    height:  65px;
+    top: 20px;
+    left: 20px;
+    background-clip: border-box;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    position: fixed;
+    z-index: 6;
+  }
+
+#clock {
+    background:  rgba(41, 41, 41, 0.3);
+    background-clip:border-box;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size:  30px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 6;
+}
+
+/* Discovery Window UX */
+
+.discoModal {
+    background-color: rgba(41, 41, 41, 0.4);
+    display: none;
+    position: absolute;
+    background-clip: border-box;
+    border-width: 15px;
+    border-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.4);
+    z-index: 1;
+    cursor: move;
+    width: 70%;
+    text-align: justify;
+    height: 70%;
+}
+
+.disco-titlebar {
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.5);
+    margin: 2px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    padding: 2px;
+    border: 1px solid rgb(103, 103, 103);
+    width: 99%;
+    height: 30px;
+    cursor: move;
+    z-index: 2;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.disco-sidebar {
+    display: flex;
+    border-bottom-left-radius: 15px;
+    height: 91.5%;
+    width: 100px;
+    background-clip: border-box;
+    background-color: rgba(228, 228, 228, 0.3);
+    margin-bottom: 2px;
+    margin-left: 2px;
+    opacity: 50%;
+}
+
+.disco-content {
+    position: absolute;
+    display: flex;
+    border-bottom-right-radius: 15px;
+    width: 89.6%;
+    height: 91.5%;
+    background-clip: border-box;
+    background-color:rgba(41, 41, 41, 0.6);
+    margin-bottom: 2px;
+    margin-right: 2px;
+    opacity: 100%;
+    margin-left: 100px;
+}
+
+h4 {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: large;
+    height: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.closeDiscovery {
+    color: rgb(235, 74, 74);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 13px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    height: 10px;
+    width: 10px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .closeDiscovery:hover,
+  .closeDiscovery:focus {
+    display: inline-flex;
+    color: rgb(235, 74, 74);
+    text-decoration: '\2751';
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    content: '\2751' rgb(0, 0, 0);
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+/* Quests Window UX */
+
+.questsModal {
+    background-color: rgba(41, 41, 41, 0.4);
+    display: none;
+    position: absolute;
+    background-clip: border-box;
+    border-width: 15px;
+    border-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.4);
+    z-index: 3;
+    cursor: move;
+    width: 70%;
+    text-align: justify;
+    height: 70%;
+}
+
+.quests-titlebar {
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.5);
+    margin: 2px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    padding: 2px;
+    border: 1px solid rgb(103, 103, 103);
+    width: 99%;
+    height: 30px;
+    cursor: move;
+    z-index: 3;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.quests-sidebar {
+    display: flex;
+    border-bottom-left-radius: 15px;
+    height: 91.5%;
+    width: 100px;
+    background-clip: border-box;
+    background-color: rgba(228, 228, 228, 0.3);
+    margin-bottom: 2px;
+    margin-left: 2px;
+    opacity: 50%;
+}
+
+.quests-content {
+    position: absolute;
+    display: flex;
+    border-bottom-right-radius: 15px;
+    width: 89.6%;
+    height: 91.5%;
+    background-clip: border-box;
+    background-color:rgba(41, 41, 41, 0.6);
+    margin-bottom: 2px;
+    margin-right: 2px;
+    opacity: 100%;
+    margin-left: 100px;
+}
+
+  .closeQuests {
+    color: rgb(235, 74, 74);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 13px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    height: 10px;
+    width: 10px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .closeQuests:hover,
+  .closeQuests:focus {
+    display: inline-flex;
+    color: rgb(235, 74, 74);
+    text-decoration: '\2751';
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    content: '\2751' rgb(0, 0, 0);
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+h2 {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: large;
+    height: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Help Window UX */
+
+.helpModal {
+    background-color: rgba(41, 41, 41, 0.4);
+    display: none;
+    position: absolute;
+    background-clip: border-box;
+    border-width: 15px;
+    border-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.4);
+    z-index: 3;
+    cursor: move;
+    width: 70%;
+    text-align: justify;
+    height: 70%;
+}
+
+.help-titlebar {
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.5);
+    margin: 2px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    padding: 2px;
+    border: 1px solid rgb(103, 103, 103);
+    width: 99%;
+    height: 30px;
+    cursor: move;
+    z-index: 3;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.help-sidebar {
+    display: flex;
+    border-bottom-left-radius: 15px;
+    height: 91.5%;
+    width: 100px;
+    background-clip: border-box;
+    background-color: rgba(228, 228, 228, 0.3);
+    margin-bottom: 2px;
+    margin-left: 2px;
+    opacity: 50%;
+}
+
+.help-content {
+    position: absolute;
+    display: flex;
+    border-bottom-right-radius: 15px;
+    width: 89.6%;
+    height: 91.5%;
+    background-clip: border-box;
+    background-color:rgba(41, 41, 41, 0.6);
+    margin-bottom: 2px;
+    margin-right: 2px;
+    opacity: 100%;
+    margin-left: 100px;
+}
+
+  .closeLearning {
+    color: rgb(235, 74, 74);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 13px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    height: 10px;
+    width: 10px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .closeLearning:hover,
+  .closeLearning:focus {
+    display: inline-flex;
+    color: rgb(235, 74, 74);
+    text-decoration: '\2751';
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    content: '\2751' rgb(0, 0, 0);
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+h5 {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: large;
+    height: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Coalitions Window UX */
+
+.coaModal {
+    background-color: rgba(41, 41, 41, 0.4);
+    display: none;
+    position: absolute;
+    background-clip: border-box;
+    border-width: 15px;
+    border-color: whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.4);
+    z-index: auto;
+    cursor: move;
+    width: 70%;
+    text-align: justify;
+    height: 70%;
+}
+
+.coa-titlebar {
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-color:rgba(41, 41, 41, 0.5);
+    margin: 2px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    padding: 2px;
+    border: 1px solid rgb(103, 103, 103);
+    width: 99%;
+    height: 30px;
+    cursor: move;
+    z-index: 3;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.coa-sidebar {
+    display: flex;
+    border-bottom-left-radius: 15px;
+    height: 91.5%;
+    width: 100px;
+    background-clip: border-box;
+    background-color: rgba(228, 228, 228, 0.3);
+    margin-bottom: 2px;
+    margin-left: 2px;
+    opacity: 50%;
+}
+
+.coa-content {
+    position: absolute;
+    display: flex;
+    border-bottom-right-radius: 15px;
+    width: 89.6%;
+    height: 91.5%;
+    background-clip: border-box;
+    background-color:rgba(41, 41, 41, 0.6);
+    margin-bottom: 2px;
+    margin-right: 2px;
+    opacity: 100%;
+    margin-left: 100px;
+}
+
+.closeCoa {
+    color: rgb(235, 74, 74);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 13px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    height: 10px;
+    width: 10px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .closeCoa:hover,
+  .closeCoa:focus {
+    display: inline-flex;
+    color: rgb(235, 74, 74);
+    text-decoration: '\2751';
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    content: '\2751' rgb(0, 0, 0);
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+h6 {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: large;
+    height: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Date and Time UX */
+
+#date {
+    font-size:  23px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    height: 30px;
+    position: relative;
+    z-index: 6;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.top {
+    background:  rgba(41, 41, 41, 0.7);
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    opacity: 30%;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+  }
+
+body {
+    background-image: url("/images/server_invite_bgnd.png");
+    background-color: lightblue;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

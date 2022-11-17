@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<a href="https://intra.nylx.ch/"></a>
+<script src="js/time.js" type="text/javascript"></script>
+<script src="js/date.js" type="text/javascript"></script>
+<body onload="startTime(); currentDate();">
+<div>
+        <h1><b>NYLX Intra</b></h1>
+        <subtitle>Powered by:</subtitle>
+        <subtitle2><b>OrionUX</b></subtitle2>
+        <link rel="stylesheet" href="styles.css"/>
+      <div class="dockbg"></div>
+      <div class="dock">
+        <img src="/images/home.png">
+          <button onclick="openDiscovery();">
+            <img src="/images/discovery.png">
+          </button>
+          <button onclick="openQuests();">
+            <img src="/images/quests.png">
+          </button>
+          <div class="vl"></div>
+          
+          <button onclick="openHelp();">
+            <img src="/images/help.png">
+          </button>
+          <button onclick="openHouses();">
+            <img src="/images/coalitions.png">
+          </button>
+      <div class="vl2"></div>
+      </div>
+          <div class="wrapper">  
+            <div class="top">
+            </div>
+          <div id="clock"></div>
+          <div id="date">
+            <h3> Made by si@nylx.ch </h3>
+          </div>
+          </div>
+      <div class="profilebg"></div>
+      <div class="profile">
+        <img src="/images/resources/user-img/apng.png">
+        <button onclick="openUser();" type="menu" title="username"></button>
+      </div>
+  <div>
+    <div id="discoWindow" class="discoModal">
+      <div class="disco-titlebar">
+      <span class="closeDiscovery">&#9679;</span>
+         <h4>Discovery</h4>
+      </div>
+        <div class="disco-sidebar">
+          <div class="disco-content"></div>
+        </div>
+    </div>
+  </div>
+  <div>
+    <div id="questsWindow" class="questsModal">
+      <div class="quests-titlebar">
+      <span class="closeQuests">&#9679;</span>
+          <h2>Quests</h2>
+      </div>
+        <div class="quests-sidebar">
+          <div class="quests-content"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div id="coaWindow" class="coaModal">
+      <div class="coa-titlebar">
+      <span class="closeCoa">&#9679;</span>
+          <h6>Houses</h6>
+      </div>
+        <div class="coa-sidebar">
+          <div class="coa-content"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div id="helpWindow" class="helpModal">
+      <div class="help-titlebar">
+      <span class="closeLearning">&#9679;</span>
+          <h5>Help & eLearning</h5>
+      </div>
+        <div class="help-sidebar">
+          <div class="help-content"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="js/window_control.js" type="text/javascript"></script>
